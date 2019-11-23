@@ -8,7 +8,7 @@ const Exp = styled.p`
 `;
 
 const ApodDesc = ({pic}) => {
-    const [fadeIn, setFadeIn] = useState(true);
+    const [fadeIn, setFadeIn] = useState(false);
 
     const toggle = () => setFadeIn(!fadeIn);
 
